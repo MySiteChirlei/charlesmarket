@@ -1,0 +1,134 @@
+#titulo-principal{
+color: blue; 
+text-align: center;
+font-size: 60px;
+}
+#titulo-h2{
+    text-align: center;
+}   
+
+.borda{
+    border-style: double; 
+    border-radius: 10%;
+    padding: 3%;
+    height: 91vh;
+    width: 91vw;
+    border-color: darkblue;
+}
+.texto-intro{
+   
+    font-size: 20px;
+}
+body{
+    background-color: rgb(194, 214, 214);
+}
+
+.logo{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
+.btn-login{
+    position: absolute;
+    top: 15%;
+    right: 10%;
+}
+.autor{
+    position: absolute;
+    bottom: 5%;
+}
+.btn-login{
+    padding:10px 20px;
+    background: #eee;
+    color: #111;
+    font-size: 15 px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+#popup{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vw;
+    background: rgba(0,0,0,0.75);
+    display: none;
+}
+#popup .popup-content{
+    position:absolute;
+    top:20%;
+    left:50vw;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    padding: 10px 20px;
+    background:#eee;
+}
+  #popup a.close-popup{
+      position: absolute;
+      top: 20px;
+      right:20px;
+      font-size: 20px;
+      font-weight:600;
+      text-decoration: none;
+
+  }
+  #popup:target{
+      display: block;
+  }
+  #titulo-produtos{
+    color: blue; 
+    text-align: center;
+    font-size: 60px;
+
+  }
+  .produtos-imagem{
+      position: absolute;
+      top: 300px;
+      left:70px;
+      font-size: 40px;
+      font-weight:200;
+  }
+  .produtos-imagem .produto-individual{
+      margin: 20px;
+      display: inline-block;
+  }
+  .autor{
+    font-size: 25px;
+  }
+  #link{
+     position: absolute;
+     bottom: 0px; 
+     left: 50%;
+     
+  }
+  .borda-autora{
+    border-style: dotted; 
+    border-radius: 10%;
+    padding: 3%;
+    height: 91vh;
+    width: 91vw;
+    border-color: darkblue;
+   
+  }
+  .foto{
+      border-style: double;
+      border-radius: 30px;
+  }
+  .creditos-autor{
+    position: absolute;
+    bottom: 5%;
+   left: 40px;
+  font-size: 25px;
+  }
+  
+  .borda-texto{
+    border-style: solid; 
+    border-color: darkblue;
+    position: absolute;
+    left: 400px;
+    padding-right: 50px;
+   
+  }
